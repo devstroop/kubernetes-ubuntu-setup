@@ -1,5 +1,6 @@
-# kubernetes-ubuntu-setup :penguin
+# kubernetes-ubuntu-setup 
 
+![Kubernetes Logo](https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg)
 This repository contains a set of scripts to simplify the installation, uninstallation, and repair of Kubernetes on Ubuntu.
 
 
