@@ -1,6 +1,6 @@
 # kubernetes-ubuntu-setup 
 
-<p align="center">
+<p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Ubuntu-logo-2022.svg" alt="Ubuntu Logo" width="180" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" alt="Kubernetes Logo" width="180" />
