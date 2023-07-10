@@ -8,10 +8,10 @@ This repository contains a set of scripts to simplify the installation, uninstal
 To install Kubernetes on Ubuntu, follow these steps:
 
 1. Clone this repository to your home directory:
-  ```
-  cd ~
-  git clone https://github.com/itsalfredakku/kubernetes-ubuntu-setup.git
-  ```
+   ```
+   cd ~
+   git clone https://github.com/itsalfredakku/kubernetes-ubuntu-setup.git
+   ```
 2. Make the installation script executable:
    ```
    chmod +x ~/kubernetes-ubuntu-setup/install.sh
