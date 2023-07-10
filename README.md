@@ -65,5 +65,6 @@ If you encounter any issues with your Kubernetes installation, you can use the r
    ```
    sudo ./repair.sh
    ```
+## Support the developer 🐙
 
 <a href="https://www.buymeacoffee.com/aksbju"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=aksbju&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" /></a>
