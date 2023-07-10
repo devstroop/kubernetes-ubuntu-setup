@@ -1,57 +1,63 @@
 # kubernetes-ubuntu-setup
 
-`!/bin/bash`
+This repository contains a set of scripts to simplify the installation, uninstallation, and repair of Kubernetes on Ubuntu.
 
-Install MicroK8s
 
-```
-sudo snap install microk8s --classic
-```
+## Installation
 
-Add the current user to the microk8s group
+To install Kubernetes on Ubuntu, follow these steps:
 
-```
-sudo usermod -a -G microk8s $USER
-```
+1. Clone this repository to your home directory:
+  ```
+  cd ~
+  git clone https://github.com/itsalfredakku/kubernetes-ubuntu-setup.git
+  ```
+2. Make the installation script executable:
+   ```
+   chmod +x ~/kubernetes-ubuntu-setup/install.sh
+   ```
+3. Run the installation script with elevated privileges using the `sudo` command:
+   ```
+   sudo ~/kubernetes-ubuntu-setup/install.sh
+   ```
 
-Set ownership of the ~/.kube directory
 
-```
-sudo chown -f -R $USER ~/.kube
-```
+## Uninstallation
 
-Switch to the current user
+To uninstall Kubernetes from your Ubuntu system, follow these steps:
 
-```
-su - $USER
-```
+1. Open a terminal.
 
-Wait for MicroK8s to be ready
+2. Navigate to the directory where the `uninstall.sh` script is located:
+   ```
+   cd ~/kubernetes-ubuntu-setup
+   ```
+3. Make the uninstallation script executable:
+   ```
+   chmod +x uninstall.sh
+   ```
+4. Run the uninstallation script with elevated privileges using the `sudo` command:
+   ```
+   sudo ./uninstall.sh
+   ```
 
-```
-microk8s status --wait-ready
-```
+## Repair
 
-Enable required addons
+If you encounter any issues with your Kubernetes installation, you can use the repair script to attempt to fix them:
 
-```
-microk8s enable dashboard dns ingress
-```
+1. Open a terminal.
 
-Get information about the Kubernetes cluster
+2. Navigate to the directory where the `repair.sh` script is located:
+   ```
+   cd ~/kubernetes-ubuntu-setup
+   ```
+3. Make the repair script executable:
+   ```
+   chmod +x repair.sh
+   ```
+4. Run the repair script with elevated privileges using the `sudo` command:
+   ```
+   sudo ./repair.sh
+   ```
 
-```
-microk8s kubectl get all --all-namespaces
-```
 
-Start the Kubernetes dashboard proxy
-
-```
-microk8s dashboard-proxy
-```
-
-Start MicroK8s
-
-```
-microk8s start
-```
