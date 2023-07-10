@@ -1,0 +1,11 @@
+[Unit]
+Description=MicroK8s Dashboard Proxy
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/microk8s dashboard-proxy
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
