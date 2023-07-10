@@ -1,4 +1,4 @@
-# kubernetes-ubuntu-setup 
+# Setup `kubernetes` on Ubuntu
 
 <p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Ubuntu-logo-2022.svg" alt="Ubuntu Logo" width="180" />
