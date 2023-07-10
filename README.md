@@ -1,6 +1,12 @@
 # kubernetes-ubuntu-setup 
 
 ![Kubernetes Logo](https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Ubuntu-logo-2022.svg" alt="Ubuntu Logo" width="300" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" alt="Kubernetes Logo" width="300" />
+  <img src="https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png" alt="Docker Logo" width="300" />
+</p>
+
 This repository contains a set of scripts to simplify the installation, uninstallation, and repair of Kubernetes on Ubuntu.
 
 
