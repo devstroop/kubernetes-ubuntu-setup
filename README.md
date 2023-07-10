@@ -1,9 +1,9 @@
-# kubernetes-ubuntu-setup
+# kubernetes-ubuntu-setup :penguin
 
 This repository contains a set of scripts to simplify the installation, uninstallation, and repair of Kubernetes on Ubuntu.
 
 
-## Installation
+## Installation 🚀
 
 To install Kubernetes on Ubuntu, follow these steps:
 
@@ -22,7 +22,7 @@ To install Kubernetes on Ubuntu, follow these steps:
    ```
 
 
-## Uninstallation
+## Uninstallation 🗑️
 
 To uninstall Kubernetes from your Ubuntu system, follow these steps:
 
@@ -41,7 +41,7 @@ To uninstall Kubernetes from your Ubuntu system, follow these steps:
    sudo ./uninstall.sh
    ```
 
-## Repair
+## Repair 🛠️
 
 If you encounter any issues with your Kubernetes installation, you can use the repair script to attempt to fix them:
 
