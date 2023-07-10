@@ -1,6 +1,5 @@
 # kubernetes-ubuntu-setup 
 
-![Kubernetes Logo](https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg)
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Ubuntu-logo-2022.svg" alt="Ubuntu Logo" width="300" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" alt="Kubernetes Logo" width="300" />
@@ -67,4 +66,5 @@ If you encounter any issues with your Kubernetes installation, you can use the r
    sudo ./repair.sh
    ```
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="aksbju" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
