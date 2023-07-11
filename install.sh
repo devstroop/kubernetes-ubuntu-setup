@@ -21,8 +21,9 @@ microk8s enable dashboard dns ingress
 # Get information about the Kubernetes cluster
 microk8s kubectl get all --all-namespaces
 
+# Start MicroK8s
+microk8s start
+
 # Start the Kubernetes dashboard proxy
 microk8s dashboard-proxy
 
-# Start MicroK8s
-microk8s start
